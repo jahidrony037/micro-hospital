@@ -1,0 +1,59 @@
+.hospital {
+  color: #36ba98;
+}
+
+.pre-btn,
+.post-btn {
+  background-color: #36ba98;
+  height: 31px;
+  width: 31px;
+  opacity: 1;
+  top: 97%;
+
+  left: auto;
+}
+.pre-btn {
+  right: 20%;
+}
+.post-btn {
+  right: 17%;
+}
+
+.dot-image {
+  position: absolute;
+  top: 48%;
+  right: 0;
+  height: 700px;
+  object-fit: contain;
+}
+
+.patient-form {
+  margin-top: 160px;
+}
+
+.input-box {
+  border: 2px solid #36ba98;
+  opacity: 0.8;
+}
+
+.input-box:focus {
+  outline: #36ba98;
+  /* outline-color: #36ba98; */
+  box-shadow: none;
+  border: 1px solid #36ba98;
+}
+@media screen and (max-width: 480px) {
+  .dot-image {
+    height: 400px;
+  }
+  .post-btn {
+    right: 10%;
+  }
+  .pre-btn,
+  .post-btn {
+    top: 95%;
+  }
+  .patient-form {
+    margin-top: 100px;
+  }
+}
